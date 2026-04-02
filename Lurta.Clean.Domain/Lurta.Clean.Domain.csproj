@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Products\" />
-    <Folder Include="ValueObjects\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="EnvVariable.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
