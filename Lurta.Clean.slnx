@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Lurta.Clean.Application/Lurta.Clean.Application.csproj" Id="fc913b01-6af2-487c-ab33-2b8976efec99" />
+  <Project Path="Lurta.Clean.Domain/Lurta.Clean.Domain.csproj" Id="b52ed741-0498-4a1a-939f-f1988e665282" />
+  <Project Path="Lurta.Clean.Infrastructure.Data/Lurta.Clean.Infrastructure.Data.csproj" Id="019c7070-30b1-4019-b76a-2d281eb05254" />
+  <Project Path="Lurta.Clean.Infrastructure.IoC/Lurta.Clean.Infrastructure.IoC.csproj" Id="3726c443-c707-4bfd-82a4-0e2d4a36ee02" />
+  <Project Path="Lurta.Clean.RestApi/Lurta.Clean.RestApi.csproj" Id="56a84334-7060-49d9-9ebc-243b70bb6910" />
+  <Project Path="Lurta.Clean.Tests/Lurta.Clean.Tests.csproj" Id="3e9a462f-1f78-438f-81df-901ea4acf58e" />
+</Solution>

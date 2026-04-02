@@ -1,0 +1,6 @@
+@Lurta.Clean.RestApi_HostAddress = http://localhost:5204
+
+GET {{Lurta.Clean.RestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
