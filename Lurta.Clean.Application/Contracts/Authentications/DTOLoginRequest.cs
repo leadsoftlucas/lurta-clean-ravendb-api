@@ -11,7 +11,7 @@ namespace Lurta.Clean.Application.Contracts.Authentications
         [DataMember]
         [Required(ErrorMessage = Constant.RequiredField)]
         [DataType(DataType.EmailAddress)]
-        public string UserName { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
 
         [DataMember]
         [Required(ErrorMessage = Constant.RequiredField)]

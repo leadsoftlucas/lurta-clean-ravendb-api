@@ -1,4 +1,7 @@
-﻿namespace Lurta.Clean.Domain.Entities.Employees
+﻿using Lurta.Clean.Domain.ValueObjects;
+using Raven.Client.Documents.Session.TimeSeries;
+
+namespace Lurta.Clean.Domain.Entities.Employees
 {
     public sealed class Employee
     {

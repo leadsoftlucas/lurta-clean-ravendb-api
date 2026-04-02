@@ -10,6 +10,11 @@
     <PackageReference Include="LeadSoft.Common.Library" Version="10.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.17.0" />
+    <PackageReference Include="RavenDB.Client" Version="7.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lurta.Clean.Domain\Lurta.Clean.Domain.csproj" />
   </ItemGroup>
 
 </Project>

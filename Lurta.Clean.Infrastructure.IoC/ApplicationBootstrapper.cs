@@ -1,6 +1,8 @@
 ﻿using Lurta.Clean.Application.Services;
 using Lurta.Clean.Application.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using Raven.Client.Http;
+using Raven.DependencyInjection;
 
 namespace Lurta.Clean.Infrastructure.IoC
 {
@@ -14,6 +16,16 @@ namespace Lurta.Clean.Infrastructure.IoC
 
         private static IServiceCollection AddRavenDB(this IServiceCollection services)
         {
+            services.AddRavenDbDocStore(options =>
+            {
+                options.BeforeInitializeDocStore = docStore =>
+                {
+                    docStore.Conventions.IdentityPartsSeparator = '-';
+                    docStore.Conventions.ReadBalanceBehavior = ReadBalanceBehavior.FastestNode;
+                };
+            });
+            services.AddRavenDbAsyncSession();
+
             return services;
         }
 
@@ -25,6 +37,7 @@ namespace Lurta.Clean.Infrastructure.IoC
         private static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IUsuariosService, UsuariosService>();
 
             return services;
         }

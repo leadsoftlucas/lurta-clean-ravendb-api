@@ -1,5 +1,5 @@
-﻿using Lurta.Clean.Domain.Entities.Orders;
-using Lurta.Clean.Domain.ValueObjects;
+﻿using Lurta.Clean.Domain.ValueObjects;
+using Raven.Client.Documents.Session.TimeSeries;
 
 namespace Lurta.Clean.Domain.Entities.Companies
 {

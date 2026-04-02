@@ -1,4 +1,6 @@
-﻿namespace Lurta.Clean.Domain.Entities.Orders
+﻿using Lurta.Clean.Domain.ValueObjects;
+
+namespace Lurta.Clean.Domain.Entities.Orders
 {
     public sealed class Order
     {

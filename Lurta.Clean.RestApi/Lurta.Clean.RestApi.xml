@@ -4,7 +4,7 @@
         <name>Lurta.Clean.RestApi</name>
     </assembly>
     <members>
-        <member name="M:Lurta.Clean.RestApi.Controllers.AuthenticationController.PostLoginAsync(Lurta.Clean.Application.Contracts.Authentications.DTOLoginRequest)">
+        <member name="M:Lurta.Clean.RestApi.Controllers.AuthenticationsController.PostLoginAsync(Lurta.Clean.Application.Contracts.Authentications.DTOLoginRequest)">
             <summary>
             🔑 **Login de Usuário** - Autentica o usuário e retorna um token JWT para acesso à API.
             </summary>
